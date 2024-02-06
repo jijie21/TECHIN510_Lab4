@@ -3,7 +3,6 @@ import datetime
 import pytz
 import time
 
-# Helper functions
 def display_time(timezone):
     now = datetime.datetime.now(pytz.timezone(timezone))
     return now.strftime('%Y-%m-%d %H:%M:%S')
