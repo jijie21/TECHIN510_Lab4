@@ -20,5 +20,3 @@ jobs:
 
     - name: Run hello.py
       run: python hello.py  # Executes the hello.py script
-
-      
